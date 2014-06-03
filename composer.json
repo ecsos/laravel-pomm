@@ -10,8 +10,7 @@
     "keywords": ["pomm", "postgres", "postgresql"],
     "homepage": "http://github.com/ecsos/LaravelPomm",
     "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": "~4.1"
+        "php": ">=5.4.0"
     },
     "autoload": {
         "classmap": [
