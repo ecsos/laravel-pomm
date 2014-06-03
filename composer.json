@@ -1,0 +1,29 @@
+{
+    "name": "ecsos/laravel-pomm",
+    "description": "A pomm Service Provider",
+    "authors": [
+        {
+            "name": "Nick Salonen",
+            "email": "whatdoyouwant@gmail.com"
+        }
+    ],
+    "keywords": ["pomm", "postgres", "postgresql"],
+    "homepage": "http://github.com/ecsos/LaravelPomm",
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Ecsos\\LaravelPomm\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
